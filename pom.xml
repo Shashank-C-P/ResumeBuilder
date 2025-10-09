@@ -10,7 +10,7 @@
 	<groupId>com.resume</groupId>
 	<artifactId>ResumeBuilder</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>ResumeBuilder</name>
 	<description>Resume Builder Web Application - Template based</description>
 	<properties>
