@@ -36,7 +36,7 @@ public class AppController {
     @Autowired private ResumeService resumeService;
     @Autowired private PdfGenerationService pdfGenerationService;
 
-    @GetMapping({"/", "/login"})
+    @GetMapping({"/login"})
     public String showLoginForm() { return "login"; }
 
     @GetMapping("/register")
