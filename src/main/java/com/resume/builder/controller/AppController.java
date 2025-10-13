@@ -36,6 +36,11 @@ public class AppController {
     @Autowired private ResumeService resumeService;
     @Autowired private PdfGenerationService pdfGenerationService;
 
+    @GetMapping("/")
+    public String home() {
+        return "redirect:/login";
+    }
+    
     @GetMapping({"/login"})
     public String showLoginForm() { return "login"; }
 
