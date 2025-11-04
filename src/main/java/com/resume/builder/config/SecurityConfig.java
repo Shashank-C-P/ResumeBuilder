@@ -23,10 +23,10 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
             // This part is important for platforms like Railway that use a proxy
-            .requiresChannel(channel -> channel
-                .requestMatchers(r -> r.getHeader("X-Forwarded-Proto") != null)
-                .requiresSecure()
-            )
+//            .requiresChannel(channel -> channel
+//                .requestMatchers(r -> r.getHeader("X-Forwarded-Proto") != null)
+//                .requiresSecure()
+           // )
             .authorizeHttpRequests(auth -> auth
                 // *** THIS IS THE FIX ***
                 // Permit all internal FORWARD requests, which are used for rendering JSP views.
