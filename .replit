@@ -35,5 +35,5 @@ externalPort = 80
 
 [deployment]
 deploymentTarget = "autoscale"
-run = ["bash", "-c", "java -jar target/ResumeBuilder-0.0.1-SNAPSHOT.war"]
+run = ["bash", "-c", "java -jar target/ResumeBuilder-0.0.1-SNAPSHOT.jar"]
 build = ["bash", "-c", "./mvnw package -DskipTests"]
