@@ -2,7 +2,7 @@
 
 
 
-> \*\*Live Demo:\*\* \[https://resume-builder--shashank-cp.replit.app]
+> \*\*Live Demo:\*\* \  https://resume-builder--shashank-cp.replit.app
 
 
 
