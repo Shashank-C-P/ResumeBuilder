@@ -2,11 +2,11 @@
 
 
 
-> \*\*Live Demo:\*\* \[resumecraft.up.railway.app](https://resumecraft.up.railway.app)
+> \*\*Live Demo:\*\* \[https://resume-builder--shashank-cp.replit.app]
 
 
 
-A modern, template-based web application for creating professional resumes with ease. Built with Spring Boot and deployed on Railway, ResumeCraft provides an intuitive interface for users to build, manage, and download their resumes in PDF format.
+A modern, template-based web application for creating professional resumes with ease. Built with Spring Boot and deployed on Replit, ResumeCraft provides an intuitive interface for users to build, manage, and download their resumes in PDF format.
 
 
 
@@ -142,7 +142,7 @@ A modern, template-based web application for creating professional resumes with 
 
 \### \*\*Deployment\*\*
 
-\- \*\*Railway\*\*: Cloud platform for deployment
+\- \*\*Replit\*\*: Cloud platform for deployment
 
 \- \*\*Apache Tomcat\*\*: Embedded servlet container
 
@@ -300,7 +300,7 @@ ResumeBuilder/
 
 
 
-\## 🌐 Deployment on Railway
+\## 🌐 Deployment on Replit
 
 
 
